@@ -16,20 +16,33 @@ Product.init(
       primaryKey: true,
       autoIncrement: true
     },
-    product_id: {
+    product_name: {
+      type: DataTypes.STRING,
+      allowNull: false
+    },
+    price: {
+      // decimal number to represent dollar value, total precision of 10 digits (2 after the decimal point and 8 before)
+      type: DataTypes.DECIMAL(10, 2),
+      allowNull: false,
+      validate: {
+        isDecimal: true
+      }
+    },
+    stock: {
+      type: DataTypes.INTEGER,
+      allowNull: false,
+      defaultValue: 10,
+      validate: {
+        isNumeric: true
+      }
+    },
+    category_id: {
       type: DataTypes.INTEGER,
       references: {
-        model: 'product',
+        model: 'category',
         key: 'id',
       },
     },
-    tag_id: {
-      type: DataTypes.INTEGER,
-      references: {
-        model: 'tag',
-        key: 'id',
-      },
-    }
   },
   {
     sequelize,
