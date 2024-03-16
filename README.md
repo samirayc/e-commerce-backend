@@ -37,7 +37,7 @@ For this application, given the starter code of a working Express.js API E-Comme
 ## Usage
 
 * Open MySQL using command `mysql -u root -p` and enter your MySQL password.
-* Run `source schema.sql` to create database
+* Run `source db/schema.sql` to create database
 * Seed database with `npm run seed`
 * Start server with `npm start` command or, to start server with Nodemon, run `npm run watch`.
 * Use [Insomnia](https://insomnia.rest/download) to interact through different routes.
