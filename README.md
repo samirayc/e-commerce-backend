@@ -25,7 +25,33 @@ For this application, given the starter code of a working Express.js API E-Comme
 * [Contact](#contact)
 
 ## Demo
+View the full demo [here](https://drive.google.com/file/d/1aIqbkg0Giwn762jbxnFUW1A0CiEM5oGD/view?usp=sharing)!
 
+Example functionality:
+
+GET all tags:
+
+![GET all tags](public/images/GET-all-tags.png)
+
+Create new tag:
+
+![Create new tag](public/images/CREATE-tag.png)
+
+Update tag:
+
+![Update tag](public/images/UPDATE-tag.png)
+
+Search id of tag to show that tag name was updated:
+
+![Updated tag by id](public/images/UPDATED-tag-by-id.png)
+
+Delete tag by id:
+
+![Delete tag by id](public/images/DELETE-tag-by-id.png)
+
+Check that tag was deleted:
+
+![Check that tag was deleted](public/images/DELETE-after.png)
 
 ## Installation
 
@@ -41,7 +67,7 @@ For this application, given the starter code of a working Express.js API E-Comme
 * Seed database with `npm run seed`
 * Start server with `npm start` command or, to start server with Nodemon, run `npm run watch`.
 * Use [Insomnia](https://insomnia.rest/download) to interact through different routes.
-* Having issues? Watch the [demo](DEMO LINK HERE) to see the application in use. 
+* Having issues? Watch the [demo](https://drive.google.com/file/d/1aIqbkg0Giwn762jbxnFUW1A0CiEM5oGD/view?usp=sharing) to see the application in use. 
 
 ## Technologies
 
