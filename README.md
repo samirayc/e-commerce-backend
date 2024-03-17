@@ -14,7 +14,7 @@
 
 ## Description
 
-For this application, given the starter code of a working Express.js API E-Commerce website, Sequelized was configured to use and interact with a MySQL database. The MySQL database includes tables for products, categories, tags, and product tags, in which requests and updates can be made through Sequelize queries.
+For this application, given the starter code of a working Express.js API E-Commerce website, Sequelize was configured to use and interact with a MySQL database. The MySQL database includes tables for products, categories, tags, and product tags, in which requests and updates can be made through Sequelize queries.
 
 ## Table of Contents
 
