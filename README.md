@@ -25,7 +25,7 @@ For this application, given the starter code of a working Express.js API E-Comme
 * [Contact](#contact)
 
 ## Demo
-View the full demo [here](https://drive.google.com/file/d/1aIqbkg0Giwn762jbxnFUW1A0CiEM5oGD/view?usp=sharing)!
+View the full demo [here](https://drive.google.com/file/d/1UVmbFmFccEQw7S9XmtWLoUxceDBQDelg/view?usp=sharing)!
 
 Example functionality:
 
